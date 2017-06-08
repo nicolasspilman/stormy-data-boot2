@@ -41,6 +41,8 @@ dependencies {
 
 	compile ('org.postgresql:postgresql:42.1.1')
 
+    // I was using the H2 database for the test instead of postgres
+	//runtime('com.h2database:h2')
 
 	// using this so Jackson can deal with java.time.LocalDateTime
 	compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
